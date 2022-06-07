@@ -2,12 +2,6 @@
 # To cure it, apply "extract function".
 
 def story
-  middle = ""
-  middle << "\n"
-  middle << "\n"
-  middle << "\n"
-  middle << "\n"
-  middle << "\n"
   conclusion = "And that was it."
   title + spacing + conclusion
 end
