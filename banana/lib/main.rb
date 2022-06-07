@@ -3,6 +3,10 @@
 # Hint: Let the existing functions use the new code that you
 #       write.
 
+def factory(beginning, middle, conclusion)
+  phrase = Phrase.new(beginning, middle, conclusion)
+end
+
 def word_count(beginning, middle, conclusion)
   phrase = Phrase.new(beginning, middle, conclusion)
   phrase.word_count
