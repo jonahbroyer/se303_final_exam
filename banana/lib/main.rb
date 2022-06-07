@@ -21,4 +21,10 @@ end
 
 class Phrase
 
+  def initialize(beginning, middle, conclusion)
+    @beginning = beginning
+    @middle = middle
+    @conclusion = conclusion
+  end
+
 end
