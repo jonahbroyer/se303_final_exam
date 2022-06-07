@@ -27,4 +27,13 @@ class Phrase
     @conclusion = conclusion
   end
 
+  def word_count
+  end
+
+  def letter_count
+  end
+
+  def period_count
+  end
+
 end
