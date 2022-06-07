@@ -2,7 +2,6 @@
 # To cure it, apply "extract function".
 
 def story
-  conclusion = "And that was it."
   title + spacing + conclusion
 end
 
