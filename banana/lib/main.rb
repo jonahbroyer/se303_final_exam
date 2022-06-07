@@ -14,9 +14,8 @@ def letter_count(beginning, middle, conclusion)
 end
 
 def period_count(beginning, middle, conclusion)
-  beginning.scan(/\./).size +
-  middle.scan(/\./).size +
-  conclusion.scan(/\./).size
+  phrase = Phrase.new(beginning, middle, conclusion)
+  phrase.period_count
 end
 
 class Phrase
@@ -38,6 +37,9 @@ class Phrase
   end
 
   def period_count
+    @beginning.scan(/\./).size +
+    @middle.scan(/\./).size +
+    @conclusion.scan(/\./).size
   end
 
 end
