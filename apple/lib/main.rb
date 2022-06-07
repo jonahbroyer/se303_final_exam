@@ -9,9 +9,13 @@ def story
   middle << "\n"
   middle << "\n"
   conclusion = "And that was it."
-  title + middle + conclusion
+  title + spacing + conclusion
 end
 
 def title
   first = "Mr. Dursley was the director of a firm called Grunnings, which made drills."
+end
+
+def spacing
+"\n\n\n\n\n"
 end
