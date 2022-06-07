@@ -8,18 +8,15 @@ def factory(beginning, middle, conclusion)
 end
 
 def word_count(beginning, middle, conclusion)
-  phrase = Phrase.new(beginning, middle, conclusion)
-  phrase.word_count
+  factory(beginning, middle, conclusion).word_count
 end
 
 def letter_count(beginning, middle, conclusion)
-  phrase = Phrase.new(beginning, middle, conclusion)
-  phrase.letter_count
+  factory(beginning, middle, conclusion).letter_count
 end
 
 def period_count(beginning, middle, conclusion)
-  phrase = Phrase.new(beginning, middle, conclusion)
-  phrase.period_count
+  factory(beginning, middle, conclusion).period_count
 end
 
 class Phrase
