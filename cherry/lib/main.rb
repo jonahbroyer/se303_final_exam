@@ -28,5 +28,6 @@ def repeat
   (0..5).each do |i|
     result += data[i]
   end
+  #data.map {|str| str.split(",")} 
   result
 end
