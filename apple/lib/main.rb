@@ -10,5 +10,9 @@ def story
   middle << "\n"
   middle << "\n"
   conclusion = "And that was it."
-  first + middle + conclusion
+  title + middle + conclusion
+end
+
+def title
+  first = "Mr. Dursley was the director of a firm called Grunnings, which made drills."
 end
