@@ -24,10 +24,5 @@ end
 
 def repeat
   data = ["This", "is", "the", "data", "to", "use"]
-  result = ""
-  (0..5).each do |i|
-    result += data[i]
-  end
-  #data.map {|str| str.split(",")} 
-  result
+  (0..5).map {|i| data[i]}.join("")
 end
